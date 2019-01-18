@@ -9,9 +9,12 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "concurrently": "^4.1.0",
     "nodemon": "^1.18.9"
   },
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev-server": "nodemon server.js",
+    "dev-client": "cd client; yarn start",
+    "dev": "concurrently \"yarn run dev-server\" \"yarn run dev-client\" "
   }
 }
