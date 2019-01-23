@@ -1,5 +1,4 @@
 # RocketRoseCodingChallenge
-======
 
 # Packages installed 
 ### Server
@@ -17,7 +16,6 @@
 5. Redux-Thunk
 6. Redux-Logger
 7. Victory
-======
 
 # Installing the application
 To install the required dependancies for the application, run the command **yarn run install-app**
