@@ -18,10 +18,13 @@
 7. Victory
 
 # Installing the application
-To install the required dependancies for the application, run the command **yarn run install-app**
+To install the required dependancies for the application, run the command **yarn run install-server** then **yarn run install-client**. 
 
 # Running the application
-To run the application on a local machine, run the command **yarn run dev**
+To run the application on a local machine, run the command **yarn run dev**. 
+
+### Note on using yarn
+If yarn isn't installed on your local machine, replacing yarn scripts with npm will also run the application
 
 # Future Considerations
 1. Create additional logic to render the bonus driver based on input changes to the json file.
