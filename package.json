@@ -1,10 +1,11 @@
 {
   "name": "RoseRocket",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Adrian Pearman <adrianpearman12@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "^4.16.4"
   },
@@ -14,7 +15,10 @@
   },
   "scripts": {
     "dev-server": "nodemon server.js",
-    "dev-client": "cd client; yarn start",
-    "dev": "concurrently \"yarn run dev-server\" \"yarn run dev-client\" "
+    "dev-client": "cd client; npm start",
+    "dev": "concurrently \"npm run dev-server\" \"npm run dev-client\"",
+    "install-server": "npm install",
+    "install-client": "cd client; npm install",
+    "install-app": "concurrently \"npm run install-server\" \"npm run install-client\""
   }
 }

@@ -7,9 +7,9 @@ router.get('/', (req, res) => {
     res.send(data.intialDriverLocation)
 })
 
-router.get('/currentLocation', (req, res) => {
-    res.setHeader('Content-Type', 'application/json')
-    res.send(data.currentDriverLocation)
+router.post('/', (req, res) => {
+    console.log(req.body)
+    res.sendStatus(200)
 })
 
 module.exports = router 

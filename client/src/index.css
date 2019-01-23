@@ -1,0 +1,22 @@
+/* Select Element */
+select {
+    height: 50px;
+    width: 40%;
+    /* text-align: center; */
+}
+
+input {
+    overflow: visible;
+    width: 70%;
+    margin: 5% 0%;
+}
+
+.green{
+    color: green
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+    text-decoration-line: underline;
+}
